@@ -55,6 +55,26 @@
    dan berikut adalah hasilnya <br>
    ![Screenshot_14](https://github.com/user-attachments/assets/a4cfb252-60a2-4ee3-a4b8-f5a101e23d9b)
 
+
+**Pertanyaan dan Tugas** <br>
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua
+link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
+
+ubah pada page controllers seperti berikut, <br>
+![Screenshot_21](https://github.com/user-attachments/assets/2b45e4eb-4cf8-4e3e-a8ca-f0d012db2d40) <br>
+dan hasilnya akan seperti berikut <br>
+![Screenshot_22](https://github.com/user-attachments/assets/70e4fc92-46ea-4026-81ab-108dd8290cde) <br>
+fungsi utama pada page.php di controller adalah mengelola logika pemrosesan sebelum menampilkan halaman. Pada metode seperti about(), contact(), dan faqs(), kita menggunakan fungsi view() untuk menampilkan halaman yang sesuai.
+
+ 
+**Kesimpulan**<br>
+Pemahaman yang saya dapatkan pada praktikum ini adalah :<br>
+1️⃣ MVC (Model-View-Controller) digunakan untuk memisahkan logika program Model, View dan Controller. Model untuk mengelola data dan database, View untuk menampilkan antarmuka pengguna dan Controller untuk menghubungkan Model dan View.<br>
+2️⃣ instalasi & Konfigurasi CodeIgniter 4<br>
+3️⃣ routing & Controller dalam CodeIgniter 4<br>
+4️⃣ implementasi Layout & Template dalam CodeIgniter 4<br>
+
+
    
 
 

@@ -110,15 +110,65 @@ fungsi utama pada page.php di controller adalah mengelola logika pemrosesan sebe
 8. Menambahkan admin_index() di Controller dan membuat tampilan admin dengan nama admin_index.php di app/Views/artikel/admin_index.php. <br>
    ![Screenshot_13](https://github.com/user-attachments/assets/4450e565-95d8-42a7-ac7f-9df2dedf666b) <br>
    pada admin_index.php, <br>
-   ![Screenshot_15](https://github.com/user-attachments/assets/649c69b3-4115-4eaf-a95c-9b2010c14c3e) <br>
-   ![Screenshot_16](https://github.com/user-attachments/assets/dc6a4427-06b8-41f1-a0b5-4d235ea43440) <br>
+   ![Screenshot_31](https://github.com/user-attachments/assets/4cfdecd4-d813-4cbe-bfb1-8657821a7d94) <br>
+   ![Screenshot_32](https://github.com/user-attachments/assets/7b04c5cd-4e38-4bf3-ac4e-d06a608df580)
    🔘 jadi kita bisa mengelola data artikel dengan fitur CRUD di halaman admin. <br>
    dan membuat grup routing dengan prefix "admin", yang artinya semua rute di dalamnya akan diawali dengan /admin/ <br>
    ![Screenshot_14](https://github.com/user-attachments/assets/bc2b14be-8dff-465e-898e-e4ce1299dc77) <br>
    berikut adalah tampilannya, <br>
-   ![Screenshot_17](https://github.com/user-attachments/assets/a9164270-f25a-47c3-9fb2-391e73b52de8)
+   ![Screenshot_30](https://github.com/user-attachments/assets/129d3396-af43-4f85-81cb-539a79f846e1)
 
-10. 
+9. Menambahkan metode add() di Controller Artikel untuk menyimpan artikel baru. <br>
+   ![Screenshot_18](https://github.com/user-attachments/assets/ff1905a7-0e91-4d19-a727-2b2eaf3f9fb8) <br>
+   kemudian buat viewnya dengan nama form_add.php <br>
+   ![Screenshot_19](https://github.com/user-attachments/assets/cb6af4d7-ef21-4811-803a-ee67a6bb231e) <br>
+   seperti berikut hasilnya, <br>
+   ![Screenshot_20](https://github.com/user-attachments/assets/cddb8181-3aee-4f08-bc59-3e3b02219c7f) <br>
+   🔘 ini memungkinkan pengguna dapat mengedit artikel.
+
+10. Menambahkan metode edit() di Controller Artikel untuk mengupdate artikel yang ada. <br>
+   ![Screenshot_22](https://github.com/user-attachments/assets/09e396bb-7524-4c1e-8458-c4d7c0f3c2f9) <br>
+   dan viewnya dengan nama form_edit.php <br>
+   ![Screenshot_23](https://github.com/user-attachments/assets/01ad763a-323e-458b-806a-7e892ec6dba2) <br>
+   berikt adalah hasilnya, <br>
+   ![Screenshot_24](https://github.com/user-attachments/assets/6068c450-18fb-4196-9192-68106b7db4e3) <br>
+   🔘 ini memungkinkan pengguna mengedit artikel.
+
+11. Menambahkan metode delete() untuk menghapus artikel. <br>
+   ![Screenshot_25](https://github.com/user-attachments/assets/0cd473cd-6417-4f7d-8919-16f1eac077be)
+   🔘 ini dibuat untuk mengelola penghapusan artikel dari database.
+
+
+**Pertanyaan dan Tugas**
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+<br>
+pada admin_index.php saya tambahkan kode css seperti berikut, <br>
+![Screenshot_33](https://github.com/user-attachments/assets/268739b2-a493-4228-97eb-9bdfd70b3080) <br>
+![Screenshot_34](https://github.com/user-attachments/assets/7c9c2a8c-4447-4266-b309-0c135388a74e) <br>
+dan berikut adalah hasilnya, <br>
+![Screenshot_35](https://github.com/user-attachments/assets/a31c165b-7900-45de-94a0-c4b562412015) <br>
+
+selanjutnya saya coba lakukan pengujian seperti menambah artikel, mengedit dan kemudian menghapusnya <br> 
+![Screenshot_26](https://github.com/user-attachments/assets/a2118f9b-c301-4cf0-ad39-b361104ddf92) <br>
+![Screenshot_27](https://github.com/user-attachments/assets/b57a5b73-d04f-4ebf-a1a8-c87e1137bb2e) <br>
+![Screenshot_28](https://github.com/user-attachments/assets/22e92d78-93c7-4162-9980-ff68b1a748bc) <br>
+![Screenshot_29](https://github.com/user-attachments/assets/ca7868da-24d4-4ad1-9cb5-866d8c89449e) <br>
+dan semuanya berhasil dilakukan tanpa ada kendala 👍
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
 
 
 

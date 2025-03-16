@@ -4,6 +4,7 @@
 - **NIM**     : 312310430
 - **Mata Kuliah**: Pemprograman Web 2
 
+# PRAKTIKUM 1
 **Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 1**
 
 1. Sebelum menggunakan CodeIgniter, beberapa ekstensi PHP harus diaktifkan karena CodeIgniter membutuhkan fitur tertentu agar bisa berjalan dengan baik. hilangkan titik koma (;) pada ekstensi untuk diaktifkan <br>
@@ -68,7 +69,8 @@ fungsi utama pada page.php di controller adalah mengelola logika pemrosesan sebe
 <br>
 <br>
 <br>
-**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 1**
+# PRAKTIKUM 2
+**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 2**
 
 1. Pertama-tama kita akan membuat database terlebih dahulu dengan nama lab_ci4 dan tabel artikel <br>
    ![Screenshot_1](https://github.com/user-attachments/assets/5831eb42-b777-4422-a6f7-6df47903b00d) <br>
@@ -139,8 +141,8 @@ fungsi utama pada page.php di controller adalah mengelola logika pemrosesan sebe
    🔘 ini dibuat untuk mengelola penghapusan artikel dari database.
 
 
-**Pertanyaan dan Tugas**
-Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+**Pertanyaan dan Tugas** <br>
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi. 
 <br>
 pada admin_index.php saya tambahkan kode css seperti berikut, <br>
 ![Screenshot_33](https://github.com/user-attachments/assets/268739b2-a493-4228-97eb-9bdfd70b3080) <br>

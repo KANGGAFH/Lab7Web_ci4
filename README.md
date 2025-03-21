@@ -160,7 +160,7 @@ dan semuanya berhasil dilakukan tanpa ada kendala 👍
 <br>
 <br>
 # PRAKTIKUM 3
-**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 2**
+**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 3**
 
 1. Membuat file main.php di App/Views/Layout <br>
    ![Screenshot_1](https://github.com/user-attachments/assets/6b685a44-1076-48d7-88f6-595cbace723a) <br>
@@ -179,6 +179,23 @@ dan semuanya berhasil dilakukan tanpa ada kendala 👍
 4. buat file artikel_terkini.php di app/Views/components/ <br>
    ![Screenshot_5](https://github.com/user-attachments/assets/dd59cd0e-aa03-4d5d-9664-a0eb74ec986e) <br>
    🔘 untuk menampilkan daftar artikel terbaru dalam bentuk list.
+
+
+**Pertanyaan dan Tugas** <br>
+• Sesuaikan data dengan praktikum sebelumnya, perlu melakukan perubahan field pada database dengan menambahkan tanggal agar dapat mengambil data artikel terbaru. <br>
+   ![Screenshot_6](https://github.com/user-attachments/assets/493e6f55-1959-499a-8c7d-c813ec8f592b) <br>
+   hasilnya, <br>
+   ![Screenshot_9](https://github.com/user-attachments/assets/c40c6cad-b208-4e90-bf03-2869e8e36773)
+• Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+• Apa manfaat utama dari penggunaan View Layout dalam pengembangan aplikasi? <br>
+   jawab : bagi saya untuk mempermudah maintenance dan tampilan yang konsisten. <br>
+• Jelaskan perbedaan antara View Cell dan View biasa. <br>
+   jawab : pada view biasa menampilkan halaman utama sedangkan view cell memanggil tampilan sebagai komponen modular (sidebar, widget, dll). <br>
+• Ubah View Cell agar hanya menampilkan post dengan kategori tertentu. <br>
+   ![Screenshot_10](https://github.com/user-attachments/assets/35d6ae02-861c-44c3-ad54-e8effbae3951) <br>
+   ![Screenshot_11](https://github.com/user-attachments/assets/d242c951-4e08-427d-bdc8-5f45267223c1)
+
+
 
  
 

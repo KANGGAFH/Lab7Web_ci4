@@ -186,7 +186,7 @@ dan semuanya berhasil dilakukan tanpa ada kendala 👍
    ![Screenshot_6](https://github.com/user-attachments/assets/493e6f55-1959-499a-8c7d-c813ec8f592b) <br>
    hasilnya, <br>
    ![Screenshot_9](https://github.com/user-attachments/assets/c40c6cad-b208-4e90-bf03-2869e8e36773)
-• Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+• Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi. <br>
 • Apa manfaat utama dari penggunaan View Layout dalam pengembangan aplikasi? <br>
    jawab : bagi saya untuk mempermudah maintenance dan tampilan yang konsisten. <br>
 • Jelaskan perbedaan antara View Cell dan View biasa. <br>

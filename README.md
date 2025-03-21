@@ -156,6 +156,35 @@ selanjutnya saya coba lakukan pengujian seperti menambah artikel, mengedit dan k
 ![Screenshot_28](https://github.com/user-attachments/assets/22e92d78-93c7-4162-9980-ff68b1a748bc) <br>
 ![Screenshot_29](https://github.com/user-attachments/assets/ca7868da-24d4-4ad1-9cb5-866d8c89449e) <br>
 dan semuanya berhasil dilakukan tanpa ada kendala 👍
+<br>
+<br>
+<br>
+# PRAKTIKUM 3
+**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 2**
+
+1. Membuat file main.php di App/Views/Layout <br>
+   ![Screenshot_1](https://github.com/user-attachments/assets/6b685a44-1076-48d7-88f6-595cbace723a) <br>
+   ![Screenshot_2](https://github.com/user-attachments/assets/fc943e81-4511-4567-aaf3-e1bd2ad5a98e) <br>
+   🔘 menggunakan konsep view layout untuk menyusun tampilan dasar serta menyertakan view cell untuk menampilkan artikel terkini.
+   🔘 menggunakan $this->renderSection('content') agar bisa diisi oleh halaman yang menggunakannya.
+
+2. Membuat home.php di app/Views/ <br>
+   ![Screenshot_3](https://github.com/user-attachments/assets/c07a6043-6c98-448d-9671-9eb6e1cb4785) <br>
+   🔘 extend untuk menerapkan layout utama dan section('content') untuk mengisi bagian konten utama.
+
+3. Membuat file ArtikelTerkini.php di app.Cells/ <br>
+   ![Screenshot_4](https://github.com/user-attachments/assets/e6611c66-fa78-44b5-b5d5-5f806c8b88d5) <br>
+   🔘 view cell untuk mengambil data artikel terbaru dari database menggunakan model kemudian menampilkan hasilnya dengan memanggil view artikel_terkini.php.
+
+4. buat file artikel_terkini.php di app/Views/components/ <br>
+   ![Screenshot_5](https://github.com/user-attachments/assets/dd59cd0e-aa03-4d5d-9664-a0eb74ec986e) <br>
+   🔘 untuk menampilkan daftar artikel terbaru dalam bentuk list.
+
+ 
+
+
+
+
 
 
 

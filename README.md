@@ -194,6 +194,64 @@ dan semuanya berhasil dilakukan tanpa ada kendala 👍
 • Ubah View Cell agar hanya menampilkan post dengan kategori tertentu. <br>
    ![Screenshot_10](https://github.com/user-attachments/assets/35d6ae02-861c-44c3-ad54-e8effbae3951) <br>
    ![Screenshot_11](https://github.com/user-attachments/assets/d242c951-4e08-427d-bdc8-5f45267223c1)
+<br>
+<br>
+<br>
+# PRAKTIKUM 4
+**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 4**
+
+1. Membuat tabel user, kita akan membuat tabel user untuk menyimpan username, email dan password. tabel ini juga akan digunakan untuk memverfikasi akun oleh sistem. berikut pada perintah SQL nya,
+   ![Screenshot_1](https://github.com/user-attachments/assets/424d2dc2-1c80-4301-a6e3-d0434cf94575) <br>
+2. Selanjutnya membuat UserModel.php di App/Models untuk mengakses data tabel melalui object model ini.
+   ![Screenshot_2](https://github.com/user-attachments/assets/357cd7a0-5c64-4d9c-aa5d-b0ee254104b0) <br>
+3. Membuat controller user untuk
+   - mengambil email & password dari form
+   - pengecekan apakah email ada di database
+   - pengecekan password
+   - jika semua cocok maka lanjut ke halaman admin <br>
+   ![Screenshot_3](https://github.com/user-attachments/assets/09a734e3-38b3-4978-b06f-a1096bd12e56) <br>
+   ![Screenshot_4](https://github.com/user-attachments/assets/ec8edb26-05cf-43c7-abea-41e8187e5fae) <br>
+4. Membuat view login (login.php) agar bisa memasukkan email & password untuk login yang nantinya akan diproses di controller user. <br>
+   ![Screenshot_5](https://github.com/user-attachments/assets/eaf61440-7166-4476-b891-3f7d8e10e514) <br>
+5. Membuat database seeder, ini dilakukan untuk uji proses login tanpa memasukkan data login secara manual, <br>
+   ![Screenshot_6](https://github.com/user-attachments/assets/696a6d87-0032-416e-8750-003401887f72) <br>
+   untuk perintah di CLI nya : php spark db:seed UserSeeder <br>
+   setelah melakukan uji coba dan sedikit perbuahan pada tampilan dari css, berikut adalah tampilannya, <br>
+   ![Screenshot_7](https://github.com/user-attachments/assets/b45d3118-9ba7-4d6b-be22-6e9abb53dd98)
+6. Menambahkan auth filter, kita lakukan ini agar hanya halaman tertentu yang bisa diakses setalah login sedangkan untuk halaman yang belum login nantinya akan diarahkan ke halaman login terlebih dahulu. <br>
+   buat file dengan nama Auth.php di App/Filters <br>
+   ![Screenshot_8](https://github.com/user-attachments/assets/e04ae344-3ca5-4a8e-9f0c-2d3da3b0c3a7) <br>
+   kemudian pada file di app/Config/Filters.php agar nantinya kbisa kita gunakan di Routes.php untuk perlindungan pada route admin. tambahkan kode berikut, <br>
+   ![Screenshot_9](https://github.com/user-attachments/assets/d605492f-d66b-488d-8833-2bd45ee4ef00) <br>
+   terakhir pada Routes.php buat kodenya menjadi seperti berikut, <br>
+   ![Screenshot_10](https://github.com/user-attachments/assets/540abca4-4d09-4a2d-8b70-7d6ddb5cc6be) <br>
+7. Yang terakhir kita lakukan adalah membuat fungsi logout di controller user untuk menghapus data session dan sesi login yang diakhiri. <br>
+   ![Screenshot_12](https://github.com/user-attachments/assets/72068422-2fde-4558-bc5b-80282952a2d7)
+
+
+**Pertanyaan dan Tugas**<br>
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi. <br>
+<br>
+melakukan uji coba login dengan sedikit perubahan warna di css nya pada form login <br>
+![Screenshot_14](https://github.com/user-attachments/assets/09873ee5-ff9b-4f19-9ddd-4f92f6fff5a3) <br>
+setelah memasukkan data login berupa email & password maka kita akan diarahkan ke halaman admin <br>
+![Screenshot_15](https://github.com/user-attachments/assets/95ff749a-81fc-4475-93c0-70aedc06f87a) <br>
+jika kita buka di tabel user maka kita bisa lihat password yang sudah ter-hash <br>
+![Screenshot_16](https://github.com/user-attachments/assets/b6f29764-6fad-4b3c-ab41-7a50cd5bf356)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

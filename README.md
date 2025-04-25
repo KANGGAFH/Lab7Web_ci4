@@ -238,6 +238,50 @@ setelah memasukkan data login berupa email & password maka kita akan diarahkan k
 ![Screenshot_15](https://github.com/user-attachments/assets/95ff749a-81fc-4475-93c0-70aedc06f87a) <br>
 jika kita buka di tabel user maka kita bisa lihat password yang sudah ter-hash <br>
 ![Screenshot_16](https://github.com/user-attachments/assets/b6f29764-6fad-4b3c-ab41-7a50cd5bf356)
+<br>
+<br>
+<br>
+# PRAKTIKUM 5
+**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 5**
+
+1. Membuat pagiantion dan fitur pencarian di admin_index() pada controller artikel, berikut kode serta penjelasannya <br>
+   ![Screenshot_1](https://github.com/user-attachments/assets/a28cc4a3-043a-4590-b67b-3283119bc5d0) <br>
+   ini digunakan untuk apa saja ?.
+   - untuk membatasi jumlah data yang ditampilkan tiap halamannya.
+   - meningkatkan kerapihan tampilan apalagi jika data yang ditampilkannya banyak.
+   - kegunaan kode "paginate(10)"  adalah untuk yang menangani pembagian halamnnya.
+   <br>
+   ![Screenshot_2](https://github.com/user-attachments/assets/602f7209-3ceb-4681-9dca-664ab8627f6f) <br>
+   ini digunakan untuk menampilkan navigasi halamannya
+2. Kemudian kita lanjut untuk membuat form pencarian di view/artikel/admin_index, berikut kode yang ditulis <br>
+   ![Screenshot_3](https://github.com/user-attachments/assets/b71d3911-c082-4710-ba01-948b5f22f13b) <br>
+   dan modifikasi pagernya <br>
+   ![Screenshot_4](https://github.com/user-attachments/assets/9e189f71-2589-47d4-b021-485d01394592) <br>
+   ini digunakan untuk,
+   - user mencari/memfilter data di artikel.
+   - pada kode "like('jduul, $q)" digunakan untuk mencari judul artikel sesuai keyword yang kita masukkan.
+   - pada "only(['q'])" di pagiantion menajaga agar parameter pencarian tetap ada sataa pindah halaman.
+  
+hasilnya adalah seperti berikut, <br>
+![Screenshot_5](https://github.com/user-attachments/assets/106a6cf3-5b80-401c-a7f9-97b57d40aa4b)
+
+
+**Pertanyaan dan Tugas**<br>
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan
+improvisasi.<br>
+
+sedikit perubahan pada kotak pencariannya dan kita lakukan uji coba pencariannya <br>
+![Screenshot_7](https://github.com/user-attachments/assets/49849e4a-443f-4f22-a06c-3dd2412b0fbf) <br>
+berikut adalah hasilnya <br>
+![Screenshot_8](https://github.com/user-attachments/assets/e9af344d-7370-45ac-9078-faa4566b27cc) <br>
+kode berjalan dengan baik 🔥
+
+
+
+
+
+   
+
 
 
 

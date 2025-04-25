@@ -1,4 +1,4 @@
-# PRAKTIKUM 1, 2 dan 3
+# PRAKTIKUM 1, 2, 3, 4, 5 dan 6
 - **Nama**    : Kangga Fajarulhakim
 - **Kelas**   : TI.23.A.4
 - **NIM**     : 312310430
@@ -275,6 +275,43 @@ sedikit perubahan pada kotak pencariannya dan kita lakukan uji coba pencariannya
 berikut adalah hasilnya <br>
 ![Screenshot_8](https://github.com/user-attachments/assets/e9af344d-7370-45ac-9078-faa4566b27cc) <br>
 kode berjalan dengan baik 🔥
+<br>
+<br>
+<br>
+# PRAKTIKUM 6
+**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 6**
+
+Pada praktikum 6 ini kita membuat fitur upload gambar pada form tambah di artikel admin. berikut langkah-langkah yang sudah dikerjakan, <br>
+1. Modifikasi controller artikel pada method add() <br>
+   ![Screenshot_1](https://github.com/user-attachments/assets/309b9ee2-9a73-4bb8-ae89-f773f48f1f37) <br>
+   kode ini dibuat untuk : <br>
+   - pada "getFile('gambar')" untuk input file nya.
+   - kode "getName()" digunakan untuk menyimpan file ke database.
+   - menyimapn data artikel ke database termasuk juga nama file gamabarnya.
+<br>
+2. pada views/artikel/form_add.php tambahkan kode menjadi seperti berikut, <br>
+   ![Screenshot_2](https://github.com/user-attachments/assets/05aa00b3-5f50-4028-b7f0-0f7b8c3f247d) <br>
+   ini dibuat untuk tempat upload gambarnya pada tambah artikel.<br>
+3. tambahkan tag seperti berikut,
+   ![Screenshot_3](https://github.com/user-attachments/assets/06f43346-3759-4746-9b4a-cf6802134208) <br>
+   kode ini dibuat untuk : <br>
+   - agar file terkirim ke server.
+   - ini dibuat jika pada form terdapat input dengan type file.
+
+**Uji coba upload gambar** <br>
+melakukan uji coba pada halaman tambah artikel dengan mengisi judul dan isi dari artikelnya dan juga mencoba upload gamabar <br>
+![Screenshot_10](https://github.com/user-attachments/assets/9ed3e781-1b4a-43ed-aebc-a68d174767b5) <br>
+seperti inilah hasilnya, <br>
+![Screenshot_6](https://github.com/user-attachments/assets/21493425-0255-4d1c-80d8-f02bda281280) <br>
+dan gambar berhasil tersimpan di folder public/gambar <br>
+![Screenshot_7](https://github.com/user-attachments/assets/6840f8f4-c127-409d-805e-0ff6354d6e6d) <br>
+dan juga di database gambar berhasil disimpan <br>
+![Screenshot_8](https://github.com/user-attachments/assets/009e3f30-df9a-46c6-9f64-418a23a94c3b)
+
+
+
+
+
 
 
 

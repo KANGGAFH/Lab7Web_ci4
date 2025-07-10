@@ -1,4 +1,4 @@
-# PRAKTIKUM 1, 2, 3, 4, 5 dan 6
+# PRAKTIKUM PEMPROGRAMAN WEB 2
 - **Nama**    : Kangga Fajarulhakim
 - **Kelas**   : TI.23.A.4
 - **NIM**     : 312310430

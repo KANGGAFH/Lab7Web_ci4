@@ -307,6 +307,175 @@ dan gambar berhasil tersimpan di folder public/gambar <br>
 ![Screenshot_7](https://github.com/user-attachments/assets/6840f8f4-c127-409d-805e-0ff6354d6e6d) <br>
 dan juga di database gambar berhasil disimpan <br>
 ![Screenshot_8](https://github.com/user-attachments/assets/009e3f30-df9a-46c6-9f64-418a23a94c3b)
+<br>
+<br>
+<br>
+# PRAKTIKUM 7
+**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 7**
+
+Modul 7  membahas tentang Relasi Tabel dan penggunaan Query Builder pada framework CodeIgniter 4. <br>
+Langkah - langkah praktikum :
+1. Membuat Tabel kategori
+   <img width="371" height="122" alt="Screenshot_1" src="https://github.com/user-attachments/assets/cceefecb-8822-419d-840c-41c12eb0be45" />
+3. Mengubah Tabel artikel agar memiliki Foreign Key
+   <img width="963" height="73" alt="Screenshot_3" src="https://github.com/user-attachments/assets/9aa200a5-58c4-4235-bc82-5315150318c4" />
+5. Membuat **KategoriModel.php**
+6. Modifikasi **ArtikelModel.php** agar bisa join kategori
+7. Modifikasi Controller Artikel.php
+   - Menampilkan artikel dengan kategori
+   - Filter pencarian dan filter berdasarkan kategori
+   - Tambah, edit, hapus artikel disertai kategori
+9. Modifikasi View
+    - artikel/index.php → menampilkan artikel beserta kategori
+    - artikel/admin_index.php → filter kategori & pencarian
+    - form_add.php & form_edit.php → dropdown pilihan kategori
+11. Testing
+    - Halaman tambah artikel
+      <img width="1365" height="644" alt="Screenshot_22" src="https://github.com/user-attachments/assets/eb01de9d-7d35-44b9-b72a-e13a0a65aad2" />
+    - Halaman daftar artikel
+      <img width="1363" height="646" alt="Screenshot_17" src="https://github.com/user-attachments/assets/ef346cfb-3eea-43c8-984b-3fe708047478" />
+    - Tampilan Admin Index dengan Filter
+      <img width="1365" height="643" alt="Screenshot_19" src="https://github.com/user-attachments/assets/80901d62-6e3a-4d61-8a3c-6023a9390c1e" />
+<br>
+<br>
+<br>
+# PRAKTIKUM 8
+**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 8**
+
+Praktikum ke-8  membahas penerapan AJAX dalam framework CodeIgniter 4.<br>
+Langkah praktikum :
+1. Menambahkan jQuery
+   - Download jQuery dari https://jquery.com
+   - Salin file jquery-3.6.0.min.js ke folder:
+     public/assets/js/jquery-3.6.0.min.js
+3. Membuat AjaxController
+4. Membuat View AJAX
+
+Screenshot Hasil Praktikum
+<img width="1365" height="644" alt="Screenshot_7" src="https://github.com/user-attachments/assets/025317b7-3bc3-485e-885b-36e903369537" /> <br>
+Hapus data <br>
+<img width="1365" height="643" alt="Screenshot_8" src="https://github.com/user-attachments/assets/032b1ebd-e100-4cb6-b6ab-f5a4eefb55f8" /> <br>
+<img width="1362" height="645" alt="Screenshot_9" src="https://github.com/user-attachments/assets/f465a60b-2acd-4158-a1ae-fa19b537e24a" /> <br>
+<br>
+<br>
+<br>
+# PRAKTIKUM 9
+**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 9**
+
+Praktikum ini berfokus pada penggunaan AJAX untuk implementasi pencarian (search) dan pagination secara dinamis tanpa reload halaman.
+
+Langkah-langkah Praktikum :
+1. Persiapan
+   - Pastikan database aktif dan tabel artikel serta kategori telah berisi data.
+   - jQuery telah tersedia (bisa dari public/assets/js/ atau CDN).
+2. Modifikasi Controller **Artikel.php**
+3. Modifikasi View **admin_index.php**
+
+Screenshot hasil praktikum <br>
+<img width="1364" height="643" alt="Screenshot_1" src="https://github.com/user-attachments/assets/37046814-c9ec-4263-956f-364e05c3a17b" /> <br>
+Fitur cari  <br>
+<img width="1325" height="428" alt="Screenshot_2" src="https://github.com/user-attachments/assets/2f333930-ef05-4bd9-9fe2-fe9512e4fe4a" /> <br>
+<img width="1365" height="401" alt="Screenshot_3" src="https://github.com/user-attachments/assets/9998a855-3494-4b78-b864-727b86387db4" /> <br>
+<br>
+<br>
+<br>
+# PRAKTIKUM 10
+**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 10**
+
+praktikum ke-10 mata kuliah Pemrograman Web 2  membahas implementasi RESTful API menggunakan framework CodeIgniter 4.
+
+Langkah -langkah praktikum:
+1. Membuat REST Controller
+   File: app/Controllers/Post.php
+2. Menambahkan Route API
+   $routes->resource('post');
+3. Uji Coba REST API di Postman
+   - menampilkan semua data
+   - Menampilkan 1 data berdasarkan ID
+   - Menambahkan data
+   - Mengubah data
+   - Menghapus data
+
+Screenshot hasil uji coba praktikum
+
+Menampilkan semua data (GET)<br>
+<img width="1314" height="669" alt="Screenshot_1" src="https://github.com/user-attachments/assets/da67f3fc-fe32-4642-9295-542777c74bc5" />
+
+Menampilkan 1 data berdasarkan ID<br>
+<img width="1096" height="640" alt="Screenshot_2" src="https://github.com/user-attachments/assets/7390d790-62dc-41f0-8be8-a94e2a79da16" />
+
+Menambah data (POST)<br>
+<img width="1092" height="640" alt="Screenshot_3" src="https://github.com/user-attachments/assets/71fcac9c-f5c2-4907-8453-7a4a701f639c" />
+
+Mengubah data (PUT)<br>
+<img width="1095" height="637" alt="Screenshot_4" src="https://github.com/user-attachments/assets/2ae6da75-0e84-47b8-b341-02af27126e79" />
+
+Menghapus data (DELETE)<br>
+<img width="1095" height="636" alt="Screenshot_5" src="https://github.com/user-attachments/assets/771f0bb6-c50a-407a-b482-046c89c55baa" />
+<br>
+<br>
+<br>
+
+
+
+     
+
+
+# PRAKTIKUM 11
+**Hasil screenshot dari praktikum beserta Pertanyaan dan Tugas Praktikum 11**
+
+praktikum ke-11 dari mata kuliah Pemrograman Web 2, membahas integrasi VueJS 3 dengan RESTful API CodeIgniter 4.
+
+Langkah praktikum :
+1. Menyiapkan Library Vue & Axios (via CDN)
+   ``bash
+   <!-- Di dalam <head> -->
+   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   ``
+2. Menampilkan data artikel
+   File index.html:
+   - Menyusun struktur HTML dan Vue untuk menampilkan data dari API.
+   File app.js:
+   - Mengambil data dari endpoint http://localhost/labci4/public/post
+   - Menampilkan data dalam bentuk tabel
+3. Menambahkan Form Tambah/Ubah Data
+   - Menambahkan modal dengan form input
+   - Menangani tombol Tambah, Edit, dan Hapus data
+   - Form dikontrol dengan binding v-model dan event handler Vue
+4. Styling dengan style.css
+   File style.css berisi style untuk:
+   - Tabel dan form
+   - Modal dialog
+   - Tombol & elemen input
+   - Layout yang rapi dan modern
+
+Screenshot hasil praktikum <br>
+<img width="1365" height="646" alt="Screenshot_1" src="https://github.com/user-attachments/assets/eee728c1-f489-4c90-8e5b-8bb33ba18af7" />
+
+Tambah data<br>
+<img width="1365" height="645" alt="Screenshot_2" src="https://github.com/user-attachments/assets/6db45fbb-cdc6-41ed-be3a-b0b8aab989ea" /> <br>
+<img width="1363" height="641" alt="Screenshot_3" src="https://github.com/user-attachments/assets/0973faef-ecf6-4681-9685-5ad9bb9e09d1" /> <br>
+
+Edit data<br>
+<img width="1365" height="642" alt="Screenshot_5" src="https://github.com/user-attachments/assets/e6f8b181-4af4-49ba-bc72-bb75d8861456" /> <br>
+<img width="1365" height="217" alt="Screenshot_6" src="https://github.com/user-attachments/assets/9248ec21-afbb-49f2-9c85-a4ece493ec92" /> <br>
+<img width="1364" height="399" alt="Screenshot_7" src="https://github.com/user-attachments/assets/6547400e-a0af-4931-bbdb-15e066aec1d0" /><br>
+
+Hapus data
+<img width="1365" height="425" alt="Screenshot_8" src="https://github.com/user-attachments/assets/c7ff352e-43df-4afe-950e-45fac248682e" /> <br>
+<img width="1365" height="384" alt="Screenshot_9" src="https://github.com/user-attachments/assets/d65fb6b0-c123-4b6d-bb69-2d85985a5831" /
+
+
+
+
+
+
+
+
+
+    
+
 
 
 
